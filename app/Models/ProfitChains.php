@@ -5,7 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class StoreProfitChain extends Model
+class ProfitChains extends Model
 {
     use HasFactory;
+
+    protected $table = 'profit_chains';
+    protected $guarded = [];
 }
